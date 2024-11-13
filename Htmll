@@ -11,7 +11,6 @@
   <!-- Reproductor de música de fondo -->
   <audio id="musica-fondo" autoplay loop>
     <source src="musica.mp3" type="audio/mp3">
-    Tu navegador no soporta la reproducción de música.
   </audio>
 
   <header>
@@ -29,7 +28,7 @@
 
   <section id="sobre-mi">
     <h2>Sobre mí</h2>
-    <p>¡Hola! Soy [Tu Nombre], un desarrollador apasionado por la tecnología. Aquí encontrarás mis proyectos y más sobre mi experiencia.</p>
+    <p>programador junior</p>
     
     <!-- Imagen desplegable -->
     <div class="imagen-container">
@@ -77,7 +76,6 @@
   <!-- Reproductor de música de fondo -->
   <audio id="musica-fondo" autoplay loop>
     <source src="musica.mp3" type="audio/mp3">
-    Tu navegador no soporta la reproducción de música.
   </audio>
 
   <header>
@@ -95,7 +93,7 @@
 
   <section id="sobre-mi">
     <h2>Sobre mí</h2>
-    <p>¡Hola! Soy [Tu Nombre], un desarrollador apasionado por la tecnología. Aquí encontrarás mis proyectos y más sobre mi experiencia.</p>
+    <p>aprendiz</p>
     
     <!-- Imagen desplegable -->
     <div class="imagen-container">
