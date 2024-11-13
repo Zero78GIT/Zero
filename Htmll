@@ -1,0 +1,133 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Portafolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Reproductor de música de fondo -->
+  <audio id="musica-fondo" autoplay loop>
+    <source src="musica.mp3" type="audio/mp3">
+    Tu navegador no soporta la reproducción de música.
+  </audio>
+
+  <header>
+    <div class="navbar">
+      <h1>Mi Portafolio</h1>
+      <nav>
+        <ul>
+          <li><a href="#sobre-mi">Sobre mí</a></li>
+          <li><a href="#proyectos">Proyectos</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="sobre-mi">
+    <h2>Sobre mí</h2>
+    <p>¡Hola! Soy [Tu Nombre], un desarrollador apasionado por la tecnología. Aquí encontrarás mis proyectos y más sobre mi experiencia.</p>
+    
+    <!-- Imagen desplegable -->
+    <div class="imagen-container">
+      <img src="tu-imagen.jpg" alt="Mi Foto" id="mi-imagen" class="imagen-pequena" onclick="mostrarImagen()">
+      <div id="imagen-grande" class="imagen-grande">
+        <span class="cerrar" onclick="cerrarImagen()">&times;</span>
+        <img src="tu-imagen.jpg" alt="Mi Foto Grande" class="imagen-grande-img">
+      </div>
+    </div>
+  </section>
+
+  <section id="proyectos">
+    <h2>Proyectos</h2>
+    <div class="proyecto">
+      <h3>Proyecto 1</h3>
+      <p>Descripción del proyecto 1.</p>
+    </div>
+    <div class="proyecto">
+      <h3>Proyecto 2</h3>
+      <p>Descripción del proyecto 2.</p>
+    </div>
+  </section>
+
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <p>Si deseas contactarme, puedes enviar un correo a: <a href="mailto:ejemplo@correo.com">ejemplo@correo.com</a></p>
+  </section>
+
+  <footer>
+    <p>© 2024 Mi Portafolio</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Portafolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Reproductor de música de fondo -->
+  <audio id="musica-fondo" autoplay loop>
+    <source src="musica.mp3" type="audio/mp3">
+    Tu navegador no soporta la reproducción de música.
+  </audio>
+
+  <header>
+    <div class="navbar">
+      <h1>Mi Portafolio</h1>
+      <nav>
+        <ul>
+          <li><a href="#sobre-mi">Sobre mí</a></li>
+          <li><a href="#proyectos">Proyectos</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="sobre-mi">
+    <h2>Sobre mí</h2>
+    <p>¡Hola! Soy [Tu Nombre], un desarrollador apasionado por la tecnología. Aquí encontrarás mis proyectos y más sobre mi experiencia.</p>
+    
+    <!-- Imagen desplegable -->
+    <div class="imagen-container">
+      <img src="tu-imagen.jpg" alt="Mi Foto" id="mi-imagen" class="imagen-pequena" onclick="mostrarImagen()">
+      <div id="imagen-grande" class="imagen-grande">
+        <span class="cerrar" onclick="cerrarImagen()">&times;</span>
+        <img src="tu-imagen.jpg" alt="Mi Foto Grande" class="imagen-grande-img">
+      </div>
+    </div>
+  </section>
+
+  <section id="proyectos">
+    <h2>Proyectos</h2>
+    <div class="proyecto">
+      <h3>Proyecto 1</h3>
+      <p>Descripción del proyecto 1.</p>
+    </div>
+    <div class="proyecto">
+      <h3>Proyecto 2</h3>
+      <p>Descripción del proyecto 2.</p>
+    </div>
+  </section>
+
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <p>Si deseas contactarme, puedes enviar un correo a: <a href="mailto:ejemplo@correo.com">ejemplo@correo.com</a></p>
+  </section>
+
+  <footer>
+    <p>© 2024 Mi Portafolio</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
